@@ -1,77 +1,156 @@
-### 🎓 Student Placement Predictor
-A Machine Learning–based web application that predicts whether a student is likely to be Placed or Not Placed based on academic performance and other relevant student attributes.
+# 🎓 Student Placement Predictor
+
+A Machine Learning–based web application that predicts whether a student is likely to be **Placed or Not Placed** based on academic performance and other relevant student attributes.
+
+---
 
 ## 📌 Project Overview
-Student placement prediction can help educational institutions and students understand the factors that may influence placement outcomes. <br>
 
-In this project, a Logistic Regression classification model is trained on student-related data. After training, the model is integrated into a Streamlit web application, where users can enter student information and receive a placement prediction.
+Student placement prediction can help educational institutions and students understand the factors that may influence placement outcomes.
+
+In this project, a **Logistic Regression classification model** is trained on student-related data. After training, the model is integrated into a **Streamlit web application**, where users can enter student information and receive a placement prediction.
+
+---
 
 ## 🎯 Objective
-The main objectives of this project are to: <br>
 
-- Build a Machine Learning model for student placement prediction.
-- Use Logistic Regression for binary classification.
-- Preprocess student-related data before model training.
-- Evaluate the performance of the trained model.
-- Save the trained model using Python's pickle module.
-- Develop an interactive web interface using Streamlit.
-- Allow users to enter student information and receive real-time predictions.
+The main objectives of this project are to:
+
+* Build a Machine Learning model for student placement prediction.
+* Use Logistic Regression for binary classification.
+* Preprocess student-related data before model training.
+* Evaluate the performance of the trained model.
+* Save the trained model using Python's `pickle` module.
+* Develop an interactive web interface using Streamlit.
+* Allow users to enter student information and receive real-time predictions.
+
+---
 
 ## 🛠️ Technologies Used
 
-Programming Language
-- Python <br>
-Machine Learning
-- Scikit-learn
-- Logistic Regression
-- NumPy
-- Pandas <br>
-Web Application
-- Streamlit <br>
-Model Persistence
-- Pickle <br>
-Development Environment
-- Visual Studio Code
-- Git
-- GitHub
+### Programming Language
+
+* Python
+
+### Machine Learning
+
+* Scikit-learn
+* Logistic Regression
+* NumPy
+* Pandas
+
+### Web Application
+
+* Streamlit
+
+### Model Persistence
+
+* Pickle
+
+### Development Environment
+
+* Visual Studio Code
+* Git
+* GitHub
+
+---
 
 ## 🌐 Streamlit Application
 
-The frontend of the application is developed using Streamlit. Streamlit allows the Machine Learning model to be converted into an interactive web application without requiring a separate frontend framework. The application provides input fields where users can enter student information. After submitting the information, the application passes the input data to the trained Logistic Regression model. The model then returns the predicted placement outcome.
+The frontend of the application is developed using **Streamlit**. Streamlit allows the Machine Learning model to be converted into an interactive web application without requiring a separate frontend framework.
+
+The application provides input fields where users can enter student information. After submitting the information, the application passes the input data to the trained Logistic Regression model. The model then returns the predicted placement outcome.
+
+---
 
 ## ⚙️ Installation
 
-Follow the steps below to run the project locally. <br>
+Follow the steps below to run the project locally.
 
-# Step 1: Clone the Repository 
-git clone https://github.com/YOUR_USERNAME/student-placement-predictor.git <br>
-Navigate to the project directory: cd student-placement-predictor
-# Step 2: Create a Virtual Environment 
-Create a Python virtual environment:  python -m venv venv
-# Step 3: Activate the Virtual Environment
-Windows PowerShell
-venv\Scripts\activate <br>
-Windows CMD
-venv\Scripts\activate <br>
-macOS / Linux
+### Step 1: Clone the Repository
+
+```bash
+git clone https://github.com/YOUR_USERNAME/student-placement-predictor.git
+```
+
+Navigate to the project directory:
+
+```bash
+cd student-placement-predictor
+```
+
+### Step 2: Create a Virtual Environment
+
+```bash
+python -m venv venv
+```
+
+### Step 3: Activate the Virtual Environment
+
+**Windows PowerShell:**
+
+```bash
+venv\Scripts\Activate.ps1
+```
+
+**Windows CMD:**
+
+```bash
+venv\Scripts\activate
+```
+
+**macOS / Linux:**
+
+```bash
 source venv/bin/activate
-# Step 4: Install Dependencies
-Install the required packages using:<br>
-pip install -r requirements.txt <br>
-If you don't have a requirements.txt file, install the main dependencies manually:<br>
+```
+
+### Step 4: Install Dependencies
+
+Install the required packages using:
+
+```bash
+pip install -r requirements.txt
+```
+
+If you don't have a `requirements.txt` file, install the main dependencies manually:
+
+```bash
 pip install streamlit pandas numpy scikit-learn
+```
+
+---
 
 ## ▶️ Run the Application
-After installing the required dependencies, run the Streamlit application:<br>
-streamlit run app.py<br>
-The application will start on a local development server.<br>
-Open the URL displayed in the terminal to access the application.
-Usually, Streamlit runs at: <br>
-http://localhost:8501
-## 🖥️ Application Preview
-![Student Placement Predictor](UI.png)
-## 👩‍💻 Author
-Computer Science Graduate | MS Computer Science Student | AI & Machine Learning Enthusiast <br>
 
-This project was developed as part of my practical learning and implementation of Machine Learning, Python, and Streamlit. <br>
-If you found this project useful, consider giving the repository a ⭐ on GitHub! 
+After installing the required dependencies, run the Streamlit application:
+
+```bash
+streamlit run app.py
+```
+
+The application will start on a local development server.
+
+Open the URL displayed in the terminal to access the application.
+
+Usually, Streamlit runs at:
+
+```text
+http://localhost:8501
+```
+
+---
+
+## 🖥️ Application Preview
+
+![Student Placement Predictor](UI.png)
+
+---
+
+## 👩‍💻 Author
+
+**Computer Science Graduate | MS Computer Science Student | AI & Machine Learning Enthusiast**
+
+This project was developed as part of my practical learning and implementation of **Machine Learning, Python, and Streamlit**.
+
+If you found this project useful, consider giving the repository a ⭐ on GitHub!
