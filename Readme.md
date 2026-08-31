@@ -43,19 +43,19 @@ The frontend of the application is developed using Streamlit. Streamlit allows t
 
 Follow the steps below to run the project locally. <br>
 
-# Step 1: Clone the Repository 
+- Step 1: Clone the Repository 
 git clone https://github.com/YOUR_USERNAME/student-placement-predictor.git <br>
 Navigate to the project directory: cd student-placement-predictor
-# Step 2: Create a Virtual Environment 
+- Step 2: Create a Virtual Environment 
 Create a Python virtual environment:  python -m venv venv
-# Step 3: Activate the Virtual Environment
+- Step 3: Activate the Virtual Environment
 Windows PowerShell
 venv\Scripts\activate <br>
 Windows CMD
 venv\Scripts\activate <br>
 macOS / Linux
 source venv/bin/activate
-# Step 4: Install Dependencies
+- Step 4: Install Dependencies
 Install the required packages using:<br>
 pip install -r requirements.txt <br>
 If you don't have a requirements.txt file, install the main dependencies manually:<br>
