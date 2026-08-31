@@ -1,0 +1,6 @@
+#Creating Virtual Enviroment
+python -m venv venv
+.\venv\Scripts\Activate.ps1
+
+#Libraries used
+pip install streamlit pandas numpy scikit-learn
